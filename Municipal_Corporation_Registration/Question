@@ -1,1 +1,15 @@
+Q. Registration form for E-PASS is required for the Municipal Corporation to get details of each Passenger.
 
+Design a web page with following necessary fields. (Also apply required styling to web-page)
+
+A. Full Name
+B. Contact Number
+C. Email_Id
+D. Address
+E. Source
+F. Destination
+G. Vehicle_Number
+H. Date of Journey
+I. 2 Buttons (Submit and Clear)
+
+Apply validation for wherever required.
