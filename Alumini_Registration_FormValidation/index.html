@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumni Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container_1">
+
+  <h1 id="title">
+    Alumni Registration
+  </h1>
+  <!--title-->
+  <p id="description">
+    Enter the required data in the boxes.
+  </p>
+</div>
+<!---container_1--->
+<div id="container_2">
+
+  <form id="survey-form">
+    <label id="name-label">Full Name</label>
+    <input type="text" id="name" name="name" class="form" placeholder="Enter Your Full Name" required
+      ><br>
+      <label id="address">Address</label>
+      <textarea id="address" name="address" class="form" col="70" rows="3" placeholder="Enter Address" required
+       ></textarea><br>
+
+    <label for="phone">Mobile number:</label>
+​    <input type="tel" id="phone" name="phone"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      required ><br>
+​      <small>Format: 996-325-4120</small><br>
+     
+    <label id="number-label">Age</label>
+    <input type="number" id="number" name="number" placeholder="Enter Youe Age" class="form"
+       min=18 max=60 required><br>
+    
+      <label id="number-label">Passout Year</label>
+    <input type="number" id="number" name="number" placeholder="Enter Your Passout Year" class="form"
+       min=2020 max=2025 required><br>
+
+    <label id="carrer">Branch</label><br>
+    <select id="dropdown" name="role" required>
+      <option disabled selected value>
+        Select your Branch
+      </option><br>
+      <option value="ISC">
+        Computer Science and Engineering
+      </option>
+      <option value="IMA">
+        Electronics And Telecommunication
+      </option>
+      <option value="II">
+        Mechanical Engineering
+      </option>
+      <option value="IGE">
+        Information Technology
+      </option>
+      <option value="ICE">
+        Civil Engineering
+      </option>
+    </select><br><br>
+    <label id="name-label">Current Working Organization</label>
+    <input type="text" id="Organization" name="name" placeholder="Enter Current Working Organization" class="form" required
+      ><br>
+
+      <label id="carrer">Current Designation</label><br>
+      <select id="dropdown" name="role" required>
+        <option disabled selected value>
+          Select your Designation
+        </option>
+        <option value="ISC">
+          Frontend developer
+        </option>
+        <option value="IMA">
+          Backend developer
+        </option>
+        <option value="II">
+          Fullstack developer
+        </option>
+        <option value="IGE">
+          System Engineer
+        </option>
+      </select><br><br>
+    
+
+    <br><input type="submit" id="submit" name="submit" value="Submit">
+  </form>
+  <!---survey-form--->
+</div>
+<!--container_2--->
+</body>
+</html>
