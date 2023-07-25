@@ -2,4 +2,14 @@ Design a web page with following necessary fields :
 
 1. Full Name
 2. Address
-3. 
+3. Mobile Number
+4. Purpose
+5. Vaccine Number
+6. Submit Button
+
+Admin wants to store these values in database table.
+Complete this web application by using one of the server side scripting technology.
+
+Note:
+Write a HTML and server side code
+Assume Database Name : DB and Table name : users 
