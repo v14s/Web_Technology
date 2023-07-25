@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <script  src="validation.js"></script>
+    <title>Password Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Password Validation</h2>
+        <form>
+          <label for="usrname">Username</label>
+          <input type="text" id="usrname" name="usrname" required>
+      
+          <label for="psw">Password</label>
+          <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+      <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">At <b>least one lowercase</b> letter</p>
+        <p id="capital" class="invalid">At <b>least one capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">At <b>least one number</b></p>
+        <p id="length" class="invalid">At <b>least 8 or more characters</b></p>
+      </div>
+</body>
+</html>
