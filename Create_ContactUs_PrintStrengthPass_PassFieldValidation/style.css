@@ -1,0 +1,93 @@
+body {
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 150vh;
+  }
+
+ input{
+    float :left;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+ }
+
+    textarea {
+    padding-right: 200px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+
+  label {
+    line-height: 1.9rem;
+  }
+
+  input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 3px;
+   margin:auto;
+   width: 80px;
+   margin-top: 0.6rem;
+   margin-left: 12rem;
+   margin-right: 0.6rem;
+   font-family: cursive;
+   font-weight: bold;
+  }
+
+  input[type="button"] {
+    transform: translate(2.2%);
+    padding: 3px;
+    margin:auto;
+    width: 80px;
+    position : center;
+    margin-top: 0.6rem;
+    font-family: cursive;
+    font-weight: bold;
+   }
+
+ fieldset {
+   padding: 20px 40px;
+   /* float : left; */
+ }
+ .registration_form{
+  background-color: rgb(231, 231, 231);
+  margin-left: 130px;
+  border: 2px solid black;
+  padding: 10px;
+  width:650px;
+ }
+
+ #field{
+  margin:auto;
+ }
+
+ #name{
+  margin-left: 130px;
+  width:400px;
+  margin-top: -25px;
+ }
+
+ #email{
+  margin-left: 130px;
+  width:400px;
+  margin-top: -25px;
+ }
+
+ #number{
+  margin-left: 130px;
+  width:400px;
+  margin-top: -25px;
+ }
+
+ #city{
+  margin-left: 130px;
+  width:400px;
+  margin-top: -25px;
+ }
+
+ #message{
+  margin-left: 130px;
+  width:400px;
+  margin-top: -25px;
+ }
