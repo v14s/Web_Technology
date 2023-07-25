@@ -1,1 +1,11 @@
+Download React JS through below link https://nodejs.org/en/download/
 
+Then Download React Developer Tool using below link https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en
+
+Create folder in user with React JS name Then, open VS code select React JS folder open New Terminal and type : npx create-react-app calculator
+
+Then agen open New Terminal and type cd calculator npm start
+
+delete src create new folder src create file App.js, App.css, index.js
+
+or else open file start terminal and type npm start
