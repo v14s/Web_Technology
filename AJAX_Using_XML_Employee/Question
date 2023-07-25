@@ -1,0 +1,2 @@
+Q. Using AJAX (XmlHttpRequest Object) build a web page for reading Server side XML document and print the parsed XML content it in HTML table.
+Each element of Employee XML file contains id, name, dob, start_date, salary as a sub element.
