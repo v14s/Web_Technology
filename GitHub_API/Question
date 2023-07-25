@@ -1,0 +1,5 @@
+Q. Using AJAX (XMLHttpRequest) call and GitHub API, display following content on HTML page 
+
+1. Print Users.
+2. Print all repository names of the username (username is entered by the user in HTML textbox).
+3. If username is entered by the user is not present then print error message.
