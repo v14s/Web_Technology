@@ -1,0 +1,19 @@
+.btn input[type="button"]{
+    border: 5px;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: blue;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  #row{
+    font-size: 20px;
+  }
