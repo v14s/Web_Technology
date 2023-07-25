@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="validation.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <title>Municipal Corporation Registration Form for E-PASS</title>
+</head>
+
+<body>
+    <form action="#" name="CorronaVaccination" onsubmit="return(validate());">
+
+        <table cellpadding="2" width="50%" height="60%" bgcolor="#D3D3D3" align="center" cellspacing="2">
+
+            <tr>
+                <td colspan=2>
+                    <center>
+                        <font size=6><b>"Municipal Corporation Registration Form for E-PASS"</b></font>
+                        <hr>
+                    </center>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="row">Full Name</td>
+                <td><input type=text name=textnames placeholder="Enter Full Name" id="textname" size="50"  required></td>
+            </tr>
+
+            <tr>
+                <td id="row">Contact Number</td>
+                <td><input type="text" placeholder="Enter Mobile Number" name="mobno" id="mobno" size="50" required></td>
+            </tr>
+
+            <tr>
+                <td id="row">Email-ID</td>
+                <td><input type="email" placeholder="Enter Email ID" name="email" id="email" size="50" required></td>
+            </tr>
+
+            <tr>
+                <td id="row">Address</td>
+                <td><input type="text" placeholder="Enter Address" name="address" id="address" size="50" required></td>
+            </tr>
+
+            <tr>
+                <td id="row">Source</td>
+                <td><input type="text" placeholder="Enter Source" name="source" id="source" size="50">
+            </tr>
+
+            <tr>
+                <td id="row">Destination</td>
+                <td><input type="text" placeholder="Enter Destination" name="desti" id="desti" size="50">
+            </tr>
+
+            <tr>
+                <td id="row">Vehicle Number</td>
+                <td><input type="text" placeholder="Enter Vehicle Number" name="vehino" id="vehino" size="50" required></td>
+            </tr>
+          
+            <tr>
+                <td id="row">Date of Journey</td>
+                <td><input type="date" name="date" id="date" size="50" required></td>
+            </tr>
+
+            <tr>
+                <td class="btn"><input type="reset"></td>
+                <td colspan="2" class="btn"><input type="submit" value="Submit Form" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
