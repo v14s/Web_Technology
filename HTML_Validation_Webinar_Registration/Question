@@ -1,0 +1,23 @@
+Q. Registration Form for "Registration for : Webinar April 25th - 4 to 5 - Registration Information"
+
+Design a web page with following necessary fields :
+
+1. Company
+2. First Name
+3. Last Name
+4. Email
+5. Phone
+6. Address
+7. City
+8. State
+9. Button - "Submit My Registration"
+
+Admin wants to store these values in database table.
+Complete this web application by using one of the server side scripting technology.
+
+Note :
+
+a. Don't write HTML code.
+b. Write only server side code
+
+Assume Database Name : DB and Table Name : users
