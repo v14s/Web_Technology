@@ -1,0 +1,47 @@
+<html>  
+<head>  
+<title> Password Verification </title>  
+</head>  
+<script>  
+function verifyPassword() {  
+  var pw = document.getElementById("pswd").value;  
+  //check empty password field  
+  if(pw == "") {  
+     document.getElementById("message").innerHTML = "**Fill the password please...";  
+     return false;  
+  }  
+   
+ //minimum password length validation  
+  if(pw.length < 8) {  
+     document.getElementById("message").innerHTML = "**Password is weak...";  
+     return false;  
+  }  
+  
+//maximum length of password validation  
+  if(pw.length >= 8) {  
+     document.getElementById("message").innerHTML = "**Password is strong...";  
+     return false;  
+  } else {  
+     alert("Password is correct");  
+  }  
+}  
+</script>  
+  
+<body>  
+<center>  
+<h1 style="color:rgb(25, 184, 202)">Password Verification</h1>  
+<h3> Verify Password is Weak or Strong </h3>  
+  
+<form onsubmit ="return verifyPassword()">  
+<!-- Enter Password -->  
+<td> Enter Password </td>  
+<input type = "password" id = "pswd" value = "">   
+<span id = "message" style="color:red"> </span> <br><br>  
+  
+<!-- Click to verify valid password -->  
+<input type = "submit" value = "Submit">  
+   
+</form>  
+</center>  
+</body>  
+</html>  
