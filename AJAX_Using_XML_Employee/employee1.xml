@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees>
+	<employee id="be129">
+		<name>Vaishnavi</name>
+		<dob>25/05/1985</dob>
+		<startdate>01/08/2019</startdate>
+		<salary>50,00,000</salary>
+	</employee>
+	<employee id="be130">
+		<name>Sakshi</name>
+		<dob>26/12/2000</dob>
+		<startdate>02/05/2018</startdate>
+		<salary>6,00,000</salary>
+	</employee>
+	<employee id="be131">
+		<name>Prerna</name>
+		<dob>11/08/2001</dob>
+		<startdate>03/03/2018</startdate>
+		<salary>8,00,000</salary>
+	</employee>
+	<employee id="be132">
+		<name>Sumaiyya</name>
+		<dob>22/12/2000</dob>
+		<startdate>06/03/2018</startdate>
+		<salary>1,00,000</salary>
+	</employee>
+	<employee id="be133">
+		<name>Sanika</name>
+		<dob>25/12/2001</dob>
+		<startdate>03/09/2020</startdate>
+		<salary>6,50,000</salary>
+	</employee>
+	<employee id="be135">
+		<name>Manali</name>
+		<dob>30/12/2001</dob>
+		<startdate>02/05/2019</startdate>
+		<salary>2,00,000</salary>
+	</employee>
+	<employee id="be136">
+		<name>Kaveri</name>
+		<dob>29/04/2001</dob>
+		<startdate>30/08/2020</startdate>
+		<salary>20,000</salary>
+	</employee>
+	<employee id="be135">
+		<name>Vidya</name>
+		<dob>14/03/2000</dob>
+		<startdate>02/02/2019</startdate>
+		<salary>4,00,000</salary>
+	</employee>
+	<employee id="be131">
+		<name>Tanya</name>
+		<dob>02/08/2001</dob>
+		<startdate>01/01/2019</startdate>
+		<salary>5,00,000</salary>
+	</employee>
+
+</employees>
