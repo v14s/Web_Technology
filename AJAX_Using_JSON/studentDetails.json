@@ -1,0 +1,7 @@
+[
+    {"StudentName":"Vaishnavi", "Age":"21", "Department":"CSE", "Subject":"Database"},
+    {"StudentName":"Sanika", "Age":"20", "Department":"IT", "Subject":"Java"},
+    {"StudentName":"Sumaiyya", "Age":"21", "Department":"ENTC", "Subject":"CPP"},
+    {"StudentName":"Prerna", "Age":"23", "Department":"Mech", "Subject":"python"},
+    {"StudentName":"Sakshi", "Age":"18", "Department":"CSE", "Subject":"Algorithm"}
+]
