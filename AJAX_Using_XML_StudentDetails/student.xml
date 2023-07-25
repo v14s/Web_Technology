@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+	<student id="be129">
+		<firstname>Ujwala</firstname>
+		<lastname>Nuti</lastname>
+		<class>Third Year</class>
+		<branch>CSE</branch>
+		<rollno>01</rollno>
+	</student>
+	<student id="be130">
+		<firstname>Vaishnavi</firstname>
+		<lastname>Sankad</lastname>
+		<class>Final Year</class>
+		<branch>CSE</branch>
+		<rollno>02</rollno>
+	</student>
+	<student id="be131">
+		<firstname>Sumaiyya</firstname>
+		<lastname>Shaikh</lastname>
+		<class>First Year</class>
+		<branch>IT</branch>
+		<rollno>03</rollno>
+	</student>
+	<student id="be132">
+		<firstname>Aishwarya</firstname>
+		<lastname>Kyasari</lastname>
+		<class>Second Year</class>
+		<branch>ELN</branch>
+		<rollno>04</rollno>
+	</student>
+	<student id="be133">
+		<firstname>Prerna</firstname>
+		<lastname>Patil</lastname>
+		<class>Final Year</class>
+		<branch>CSE</branch>
+		<rollno>05</rollno>
+	</student>
+	<student id="be135">
+		<firstname>Sakshi</firstname>
+		<lastname>Munale</lastname>
+		<class>Third Year</class>
+		<branch>IT</branch>
+		<rollno>06</rollno>
+	</student>
+	<student id="be136">
+		<firstname>Sanika</firstname>
+		<lastname>Ghante</lastname>
+		<class>First Year</class>
+		<branch>MECH</branch>
+		<rollno>07</rollno>
+	</student>
+	<student id="be135">
+		<firstname>Tanya</firstname>
+		<lastname>Jain</lastname>
+		<class>Second Year</class>
+		<branch>CIVIL</branch>
+		<rollno>07</rollno>
+	</student>
+	<student id="be131">
+		<firstname>Riddhi</firstname>
+		<lastname>Phade</lastname>
+		<class>First Year</class>
+		<branch>MECH</branch>
+		<rollno>08</rollno>
+	</student>
+
+</students>
